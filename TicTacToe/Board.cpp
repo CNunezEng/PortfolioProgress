@@ -54,7 +54,7 @@ namespace tictactoe
 		else
 		{
 			std::cout << "Value out of bounds 0 < x,y < 2" << std::endl;
-			mStatus = Replay;
+			mStatus = status::Replay;
 		}
 
 		std::cout << std::endl << "The game status is ";

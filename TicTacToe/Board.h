@@ -2,7 +2,7 @@
 #include <iostream>
 namespace tictactoe
 {
-	enum status { winPlayer1, winPlayer2, Running, Setup, Replay, CatsGame };
+	enum class status { winPlayer1, winPlayer2, Running, Setup, Replay, CatsGame };
 
 
 	/**
